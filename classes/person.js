@@ -12,6 +12,7 @@ class Person {
     console.log(`Hi, I'm ${this.firstName} ${this.lastName}, and I'm ${this.age} years old.`);
   }
 
+  // Example of a static method 
   static introducePeople(persons){
 
    if(!Array.isArray(persons)){
